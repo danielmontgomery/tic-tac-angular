@@ -1,0 +1,53 @@
+body {
+    background-color: #BBD1E8;
+}
+#header{
+    font-family: 'Raleway', sans-serif;
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+#container{
+    width: 320px;
+    height: 320px;
+    margin-top: 20px;
+}
+.board{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    display: inline-block;
+    margin: 1px auto;
+    margin-left: 1px;
+    font-size: 80px;
+    color: #BBD1E8;
+    font-family: 'Raleway', sans-serif;
+}
+.xClass{
+    background-color: #cccccc;
+    font-size: 80px;
+    color: #3A2721;
+}
+.oClass{
+    background-color: orange;
+    font-size: 80px;
+    color: #3A2721;
+}
+.zClass{
+    position: absolute;
+    background-color: #5E2925;
+    font-size: 1px;
+    width: 320px;
+    height: 320px;
+    color: #5E2925;
+    background-image: url(xWin.png);
+}
+.yClass{
+    position: absolute;
+    background-color: green;
+    background-image: url(yWin.png);
+    color: green;
+    font-size: 1px;
+    width: 320px;
+    height: 320px;
+}
