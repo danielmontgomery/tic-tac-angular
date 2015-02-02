@@ -1,11 +1,62 @@
 body {
     background-color: #BBD1E8;
+    font-family: 'Raleway', sans-serif;
 }
 #header{
     font-family: 'Raleway', sans-serif;
     margin-left: 50px;
     margin-top: 25px;
 }
+#leftSide {
+    float: left;
+}
+#rightSide {
+    float: left;
+    width: 40%;
+    height: 500px;
+    margin-left: 50px;
+}
+#rightContainer{
+    margin-top: 93px;
+
+}
+.btn {
+  padding: 10px 15px;
+  font-size: 15px;
+  font-weight: normal;
+  text-decoration: none;
+  line-height: 1.4;
+  border: none;
+  border-radius: 4px;
+  -webkit-transition: border .25s linear, color .25s linear, background-color .25s linear;
+          transition: border .25s linear, color .25s linear, background-color .25s linear;
+
+  -webkit-font-smoothing: subpixel-antialiased;
+  }
+  .btn-block {
+  white-space: normal;
+  }
+  .btn-lg,
+.btn-group-lg > .btn {
+  padding: 10px 19px;
+  font-size: 17px;
+  line-height: 1.471;
+  border-radius: 6px;
+  }
+  .btn-danger {
+  color: #fff;
+  background-color: #e74c3c;
+  }
+.btn-danger:hover,
+.btn-danger.hover,
+.btn-danger:focus,
+.btn-danger:active,
+.btn-danger.active,
+.open > .dropdown-toggle.btn-danger {
+  color: #fff;
+  background-color: #ec7063;
+  border-color: #ec7063;
+  }
 
 #container{
     width: 320px;
@@ -24,12 +75,12 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 .xClass{
-    background-color: #cccccc;
+/*    background-color: #cccccc;*/
     font-size: 80px;
     color: #3A2721;
 }
 .oClass{
-    background-color: orange;
+/*    background-color: orange;*/
     font-size: 80px;
     color: #3A2721;
 }

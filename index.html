@@ -18,21 +18,29 @@
 </head>
 <body ng-app="TicTacApp" ng-controller="TicTacCtrl" >
     <div id="wrapper">
-        <div id="header">
-            <h1>Tic Tac Toe</h1>
-            <div id="container">
-                <div 
-                ng-class="{board:true, 
-                			xClass:box.GamesIcon == 'X', 
-                			oClass:box.GamesIcon == 'O',
-                            zClass:box.GamesIcon == 'xWin',
-                            yClass:box.GamesIcon == 'yWin'}" 
-                ng-repeat="box in board track by $index"
-                ng-click="makeMove($index)"
+        <div id="leftSide">
+            <div id="header">
+                <h1>Tic Tac Toe</h1>
+                <div id="container">
+                    <div 
+                    ng-class="{board:true, 
+                    			xClass:box.GamesIcon == 'X', 
+                    			oClass:box.GamesIcon == 'O',
+                                zClass:box.GamesIcon == 'xWin',
+                                yClass:box.GamesIcon == 'yWin'}" 
+                    ng-repeat="box in board track by $index"
+                    ng-click="makeMove($index)"
 
-                ng-bind="box.GamesIcon"
-                ></div>
+                    ng-bind="box.GamesIcon"
+                    ></div>
+                </div>
             </div>
+        </div>
+        <div id="rightSide">
+            <div id="rightContainer">
+                <!-- Thanks to Flat UI for the button and CSS. -->
+              <a href="https://tic-tac-angular.firebaseapp.com/" class="btn btn-block btn-lg btn-danger">Reset Game</a>
+          </div>
         </div>
     </div>
 </body>
